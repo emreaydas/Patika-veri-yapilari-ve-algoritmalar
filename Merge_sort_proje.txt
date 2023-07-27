@@ -1,0 +1,33 @@
+Proje 2 - Merge Sort:
+
+Verilen dizi: [16, 21, 11, 8, 12, 22]
+
+Merge Sort adımları:
+
+İlk adım - Dizi bölme:
+[16, 21, 11] | [8, 12, 22]
+
+Sol tarafı bölmeye devam edelim:
+[16] | [21, 11]
+[21] | [11]
+
+Sol tarafı bölmeye devam edelim:
+[16]
+[21] | [11]
+
+Sol tarafı sıralayarak birleştirelim:
+[11, 21]
+
+Sağ tarafı bölmeye devam edelim:
+[8] | [12, 22]
+
+Sol tarafı sıralayarak birleştirelim:
+[8, 12, 22]
+
+Son olarak, iki sıralı alt dizi olan [11, 21] ve [8, 12, 22]'yi sıralayarak birleştirelim:
+[8, 11, 12, 21, 22]
+
+Merge Sort sonucu: [8, 11, 12, 21, 22]
+
+Big-O Gösterimi:
+Merge Sort, en iyi durumda (best case), en kötü durumda (worst case) ve ortalama durumda (average case) O(n log n) karmaşıklığına sahiptir. Bu nedenle, Merge Sort'un zaman karmaşıklığı n log n'dir.
